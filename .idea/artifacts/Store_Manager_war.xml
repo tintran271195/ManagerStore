@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Store-Manager:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Store-Manager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Store-Manager-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Store-Manager:war exploded" />
+    </root>
+  </artifact>
+</component>
